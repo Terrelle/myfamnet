@@ -238,7 +238,7 @@ $.ajax({
             $('#comment_'+cid).html('');
         }else{
             $('#comment_'+cid).show();
-            alert('Action denied! You are not allowed to doing this action');
+            alert('Action denied! You are not allowed to do this action');
         }
     }
 });

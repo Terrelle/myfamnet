@@ -75,7 +75,7 @@ echo "<p class='alertRed'>".lang('enter_username_to_login')."</p>";
     }else{
         $_SESSION['attempts'] = 0;
         include ("GeT_login_WhileFetch.php");
-        echo "Welcome..";
+        echo "Welcome...";
     }       
     }
     }
