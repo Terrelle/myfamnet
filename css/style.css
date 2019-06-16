@@ -475,7 +475,8 @@ text-align: center;
     outline: none;
     color: #000000;
     margin: 10px;
-    width: 350;
+    width: 350px;
+    margin-left: 62px;
     border-radius: 100px;
     border: none;
     background: #f2f2f2;
@@ -936,7 +937,7 @@ ul.tab li a:hover,ul.tab li a:focus{
 }
 .loading_ytv{
     background: url("../imgs/loading_video.gif") center center no-repeat;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .loading_ytv iframe{
     background: rgba(203, 203, 203, 0.13);
