@@ -1,8 +1,19 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "Cuul7272";
-$dbname = "myfamnet";
+
+//Heroku CLEARDB Connection Info
+$cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$cleardb_server = $cleardb_url["host"];
+$cleardb_username = $cleardb_url["user"];
+$cleardb_password = $cleardb_url["pass"];
+$cleardb_db = substr($cleardb_url["path"], 1);
+
+
+
+
+$servername = $cleardb_server;
+$username = $cleardb_username;
+$password = $cleardb_password;
+$dbname = $cleardb_db;
 
 try 
     {
@@ -32,8 +43,8 @@ $usrRemovedAcc->bindParam(':usrSessID',$usrSessID,PDO::PARAM_INT);
 $usrRemovedAcc->execute();
 $$usrRemovedAccCount = $usrRemovedAcc->rowCount();
 if (isset($usrSessID)) {
-	if($$usrRemovedAccCount < 1){
-		session_destroy();
-	}
+    if($$usrRemovedAccCount < 1){
+        session_destroy();
+    }
 }
 ?>
