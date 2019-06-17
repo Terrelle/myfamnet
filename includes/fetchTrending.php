@@ -2,7 +2,7 @@
 session_start();
 include('../config/connect.php');
 include ("num_k_m_count.php");
-$getTriendsPagesSql = "SELECT * FROM signup ORDER BY followers DESC LIMIT 6";
+$getTriendsPagesSql = "SELECT * FROM signup ORDER BY followers DESC LIMIT 1";
 $getTriendsPages = $conn->prepare($getTriendsPagesSql);
 $getTriendsPages->execute();
 ?>
@@ -55,7 +55,7 @@ $PostContentTrending = $fetch['post_content'];
 echo "
 <table class='TriendingPosts' style='width:100%;'>
 <tr>
-<td style='width: 40px;'><span style='#FFD700;' class='fa fa-star'></span></td>
+<td style='width: 40px;'><span style='color:#FFD700;' class='fa fa-star'></span></td>
 <td><a href='posts/post?pid=".$fetch['post_id']."'><p>$PostContentTrending</p></a></td>
 </tr>
 <tr>
