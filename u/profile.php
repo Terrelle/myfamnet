@@ -682,7 +682,7 @@ box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.05);
 transition: background 0.1s , color 0.1s;
 }
 .error_page_btn:hover, .error_page_btn:focus{
-background: #4a708e;
+background: #CC0033;
 color: #fff;
 text-decoration: none;
 }
