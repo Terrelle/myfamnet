@@ -285,7 +285,7 @@ while ($getS_row = $getS->fetch(PDO::FETCH_ASSOC)) {
 <!--====================================[ end Center col2 ]============================================-->
 <!--====================================[ Center col3 ]============================================-->
         <div align="left">
-         <div id="centerCol3" style="width: 250px">
+         <div id="centerCol3" style="width: 250px;">
           <div class="centerCol_3" style="text-align: <?php echo lang('textAlign'); ?>;">
           <!--==================[Trending]===================-->
            <div id="trendingWorldWide">
