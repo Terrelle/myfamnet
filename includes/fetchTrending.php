@@ -17,9 +17,10 @@ if ($fetchPages['verify'] == '1') {
  ?>
 <a href="u/<?php echo $fetchPages['Username']; ?>" class="TriendingPages_link">
 <table class='TriendingPages'>
-    <tr>
+   
         <a href="https://c.jumia.io/?a=159826&c=1341&p=r&E=kkYNyk2M4sk%3D&utm_campaign=159826&utm_term="><img src="https://affiliates.jumia.com/banners/Jumia Ghana/PHONESANDTABLETS/250X250-MA.jpg"/></a>
-    </tr>
+    
+    
 </table>
 </a>
 
