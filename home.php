@@ -288,9 +288,9 @@ while ($getS_row = $getS->fetch(PDO::FETCH_ASSOC)) {
          <div id="centerCol3" style="width: 310px">
           <div class="centerCol_3" style="text-align: <?php echo lang('textAlign'); ?>;">
           <!--==================[Trending]===================-->
-          <div id="trendingWorldWide">
+           <div id="trendingWorldWide">
               <p class="trendingTitle_CenterCol_3"><span class="fa fa-globe"></span> <?php echo lang('trending_worldWide'); ?></p>
-          
+          <div class="trendingTitle_CenterCol_3" style="background: #e9ebee;"><a href="#" id="trPagesTab" style="background: #fff;"><?php echo lang('pages'); ?></a> <a href="#" id="trPostsTab"><?php echo lang('posts'); ?></a></div>
           <div id="trendingPostsPagesLoading" style="display: none;background: url(imgs/loading_video.gif) center center no-repeat;width: 100%;height: 100px">
           </div>
           <div id="trendingPostsPages">
