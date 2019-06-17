@@ -14,22 +14,20 @@ if ($fetchPages['verify'] == '1') {
 }else{
     $PageVerifyBadge = "";
 }
- ?> 
-<!--<a href="u/<?php echo $fetchPages['Username']; ?>" class="TriendingPages_link">
+ ?>
+<a href="u/<?php echo $fetchPages['Username']; ?>" class="TriendingPages_link">
 <table class='TriendingPages'>
     <tr>
-        <td style="width: 42px;"><div><img src="imgs/user_imgs/<?php echo $fetchPages['Userphoto']; ?>"></div></td>
-        <td style="padding: 6px 0px;"><?php echo $fetchPages['Fullname']; ?> <?php echo $PageVerifyBadge; ?>
-        <br><span style="font-weight: normal;font-size: 13px; color: #999;">@<?php echo $fetchPages['Username']; ?></span></td>
+        <a href="https://c.jumia.io/?a=159826&c=1341&p=r&E=kkYNyk2M4sk%3D&utm_campaign=159826&utm_term="><img src="https://affiliates.jumia.com/banners/Jumia Ghana/PHONESANDTABLETS/250X250-MA.jpg"/></a>
     </tr>
 </table>
-</a>-->
+</a>
 
 <?php
 }
 ?>
 </div>
-<div id="trPosts" >
+<div id="trPosts" style="display: none;">
 <?php
 $emptypost = "";
 $public = "0";
@@ -54,16 +52,15 @@ $PostContentTrending = $fetch['post_content'];
     if (strlen($PostContentTrending) > 70) {
         $PostContentTrending = substr($PostContentTrending, 0,70)."<b> ...</b>";
     }
-    // I am Aware of the spelling mistake 
 echo "
 <table class='TriendingPosts' style='width:100%;'>
 <tr>
-<td style='width: 40px;'><span style='color: #FFD700;' class='fa fa-star'></span></td>
+<td style='width: 40px;'><span style='#FFD700;' class='fa fa-star'></span></td>
 <td><a href='posts/post?pid=".$fetch['post_id']."'><p>$PostContentTrending</p></a></td>
 </tr>
 <tr>
 <td></td>
-<td style='color: #CC0033;font-size:11px;font-weight: normal;padding-top:0;'>@".$fetchAuthor_username."</td>
+<td style='color: #03a9f4;font-size:11px;font-weight: normal;padding-top:0;'>@".$fetchAuthor_username."</td>
 </tr>
 </table>
 ";
