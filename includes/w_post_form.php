@@ -32,7 +32,7 @@ if (is_dir("imgs/")) {
 <table class="WritePostUserI">
 <tr>
 <td style='width:50px;'>
-<div class='username_OF_postImg'><img src="/<?php echo $imagePath; ?>user_imgs/<?php echo $_SESSION['Userphoto']; ?>"></div>
+<div class='username_OF_postImg'><img src="<?php echo $imagePath; ?>user_imgs/<?php echo $_SESSION['Userphoto']; ?>"></div>
 </td>
 <td style="padding: 10px 0px">
 <a href="<?php echo $check_path; ?>u/<?php echo $_SESSION['Username']; ?>"><?php echo $_SESSION['Fullname']; ?></a><br/>

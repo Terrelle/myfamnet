@@ -103,7 +103,7 @@ while ($getS_row = $getS->fetch(PDO::FETCH_ASSOC)) {
     $getuser->execute();
     while ($getuser_row = $getuser->fetch(PDO::FETCH_ASSOC)) {
     ?>
-    <a href="u/<?php echo $getuser_row['Username']; ?>"><p class="<?php echo lang('HLP_b'); ?>"><img src="/imgs/user_imgs/<?php echo $getuser_row['Userphoto']; ?>" style="border-radius: 100%;" /> <?php echo $getuser_row['Fullname']; ?></p></a>
+    <a href="u/<?php echo $getuser_row['Username']; ?>"><p class="<?php echo lang('HLP_b'); ?>"><img src="imgs/user_imgs/<?php echo $getuser_row['Userphoto']; ?>" style="border-radius: 100%;" /> <?php echo $getuser_row['Fullname']; ?></p></a>
     <?php
     }
 }
