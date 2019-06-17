@@ -61,7 +61,7 @@ echo "
 </tr>
 <tr>
 <td></td>
-<td style='color: #03a9f4;font-size:11px;font-weight: normal;padding-top:0;'>@".$fetchAuthor_username."</td>
+<td style='color: #CC0033;font-size:11px;font-weight: normal;padding-top:0;'>@".$fetchAuthor_username."</td>
 </tr>
 </table>
 ";
