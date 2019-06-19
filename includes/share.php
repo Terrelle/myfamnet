@@ -43,7 +43,7 @@ $sendNotification->execute();
 // ==================================
 if ($createPost) {
 	echo "
-	<p class='postNotify' style='text-align:".lang('textAlign').";border-bottom:1px solid #2196F3;'>
+	<p class='postNotify' style='text-align:".lang('textAlign').";border-bottom:1px solid #CC0033;'>
 	<span class='fa fa-times' onclick=\"canselPostNotify2('".$pid."')\"></span> ".lang('postShared')."
 	</p>
 	";

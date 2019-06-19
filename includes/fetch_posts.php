@@ -187,7 +187,7 @@ $sh_post_body = str_replace($em_char,$em_img,$shP_content);
 $sh_hashtag_path = $check_path."hashtag/";
 $sh_hashtags_url = '/(\#)([x00-\xFF]+[a-zA-Z0-9x00-\xFF_\w]+)/';
 $sh_url = '/(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\:[0-9]+)?(\/\S*)?/';
-$sh_body = preg_replace($sh_url, '<a style="color:#CC0033;" href="$0" target="_blank" title="$0">$0</a>', $sh_post_body);
+$sh_body = preg_replace($sh_url, '<a style="color:CC0033;" href="$0" target="_blank" title="$0">$0</a>', $sh_post_body);
 if ($isHashTagPage == "yep") {
     $sh_body = preg_replace($sh_hashtags_url, '<a style="color:#CC0033;" href="'.$sh_hashtag_path.'$2" title="#$2" class="hashtagHightlight">#$2</a>', $sh_body);
 }else{
