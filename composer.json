@@ -1,5 +1,6 @@
 {
 	"require": {
-		"ext-mysqli": "*"
+		"ext-mysqli": "*",
+		"aws/aws-sdk-php": "~3.0"
 	}
 }
