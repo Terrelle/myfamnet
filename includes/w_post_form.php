@@ -71,9 +71,9 @@ if (is_dir("imgs/")) {
     <!--<li id="wt_text" style="float:<?php echo lang('w_post_li'); ?>;">
     <button class="wpost_tablinks" onclick="wpost_tabs(event, 'w_text')"><span style="color: cornflowerblue;margin: 0px 5px;" class="fa fa-pencil"></span> <?php echo lang('wpost_write'); ?></button>
     </li>-->
-    <li id="wt_photo" style="float:<?php echo lang('w_post_li'); ?>;">
+    <!--<li id="wt_photo" style="float:<?php echo lang('w_post_li'); ?>;">
     <button class="wpost_tablinks" onclick="wpost_tabs(event, 'w_photo')"><span style="color: #4CAF50;margin: 0px 5px;" class="fa fa-photo"></span> <?php echo lang('wpost_upPhoto'); ?></button>
-    </li>
+    </li>-->
     <!--<li id="wt_location" style="float:<?php echo lang('w_post_li'); ?>;">
     <button class="wpost_tablinks" onclick="wpost_tabs(event, 'w_title')"><span style="color: #ffb300;margin: 0px 5px;" class="fa fa-quote-right"></span> <?php echo lang('wpost_title'); ?></button>
     </li>-->
