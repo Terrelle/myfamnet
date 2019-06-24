@@ -18,9 +18,13 @@ if ($fetchPages['verify'] == '1') {
 <a href="u/<?php echo $fetchPages['Username']; ?>" class="TriendingPages_link">
 <table class='TriendingPages'>
 
-        <a href="https://c.jumia.io/?a=159826&c=1341&p=r&E=kkYNyk2M4sk%3D&utm_campaign=159826&utm_term="><img src="https://affiliates.jumia.com/banners/Jumia Ghana/PHONESANDTABLETS/250X250-MA.jpg"/></a>
+    <a href="https://c.jumia.io/?a=159826&c=1345&p=r&E=kkYNyk2M4sk%3D&utm_campaign=159826&utm_term="><img src="https://affiliates.jumia.com/banners/Jumia Ghana/MENSFASHION/250x250.jpg"/></a>
 
-        <a href="https://c.jumia.io/?a=159826&c=1355&p=r&E=kkYNyk2M4sk%3D&utm_campaign=159826&utm_term="><img src="https://affiliates.jumia.com/banners/Jumia Ghana/SNEAKERS/250x250.jpg"/></a>
+    <a href="https://c.jumia.io/?a=159826&c=1535&p=r&E=kkYNyk2M4sk%3D&utm_campaign=159826&utm_term="><img src="https://affiliates.jumia.com/banners//5cee886824c15250-x250.jpg"/></a>
+
+        <!--<a href="https://c.jumia.io/?a=159826&c=1341&p=r&E=kkYNyk2M4sk%3D&utm_campaign=159826&utm_term="><img src="https://affiliates.jumia.com/banners/Jumia Ghana/PHONESANDTABLETS/250X250-MA.jpg"/></a>-->
+
+        <!--<a href="https://c.jumia.io/?a=159826&c=1355&p=r&E=kkYNyk2M4sk%3D&utm_campaign=159826&utm_term="><img src="https://affiliates.jumia.com/banners/Jumia Ghana/SNEAKERS/250x250.jpg"/></a>-->
 
 </table>
 </a>
